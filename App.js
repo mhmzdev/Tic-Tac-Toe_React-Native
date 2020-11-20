@@ -84,7 +84,7 @@ function App() {
     } else if (winner == -1) {
       // incrementing the score
       setPlayer2Games(prevGames2 => prevGames2 + 1);
-      Alert.alert("Player 2 Wins..!");
+      Alert.alert("Player 2 Wins...!");
       // Game completed, NOT RESET!
       gameCompleted();
     }
